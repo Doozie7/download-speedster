@@ -1,3 +1,9 @@
+/**
+ * @fileOverview This file provides functions for calculating internet network speed.
+ * @author John Powell
+ * @version 1.0
+ */
+
 (function() {
     const MAX_RUNS = 20;
     const WAIT_DURATION = 1000;
@@ -108,7 +114,9 @@
         document.getElementById("downloadSpeed").textContent = averageSpeed.toFixed(2);
     }
 
+
     function fetchIPAddress() {
+        // Using ipify.org to get the IP address
         fetch('https://api.ipify.org/?format=json')
         .then(response => {
             if (!response.ok) {
