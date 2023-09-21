@@ -2,6 +2,8 @@
 
 A simple and effective tool to test the download speed of your internet connection. This project fetches a file and calculates the download speed in Mbps. Additionally, it fetches the IP address of the user and displays it.
 
+![<img src="./screenshot.png" width="50px" />](/screenshot.png)
+
 ## Features
 
 - Fetches and displays the user's IP address.
