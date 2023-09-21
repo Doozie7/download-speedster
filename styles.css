@@ -1,0 +1,55 @@
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.centre-box-col, .centre-box-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.centre-box-col {
+    flex-direction: column;
+}
+
+.chart-container{
+    height: 250px;
+}
+
+.speed-display {
+    font-size: 5em;
+    opacity: 70%;
+}
+
+.speed-unit {
+    font-size: 2em;
+    opacity: 30%;
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#loadingPic {
+    border-radius: 50%;
+    width: 80%;
+}
+
+#speedChart {
+    width: 80%;
+    max-width: 800px;
+    display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Speed Test</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+</head>
+
+<body>
+    <main class="centre-box-col container">
+
+        <section>
+            <h1>Speed Test</h1>
+            <p>Your download speed</p>
+            <div class="centre-box-row">
+                <div id="downloadSpeed" class="speed-display">00.00</div>
+                <div class="speed-unit">Mbps</div>
+            </div>
+            <div class="chart-container">
+                <img id="loadingPic" src="working.gif" alt="Loading...">
+                <canvas id="speedChart"></canvas>
+            </div>
+        </section>
+
+        <section>
+            <h3>Your IP address</h3>
+            <p id="ipAddress">Looking for you...</p>
+        </section>
+    </main>
+    <script src="speedtest.js"></script>
+</body>
+
+</html>
